@@ -2,7 +2,7 @@ supported_targets: '*'
 
 extensions:
   avocado-ext-cockpit:
-    version: 2024.1.0
+    version: 0.1.0
     release: r0
     summary: Cockpit with web interface
     description: A web-based graphical interface for device configuration
@@ -40,4 +40,4 @@ extensions:
       sscg: '*'
 
 sdk:
-  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}-{{ env.AVOCADO_DISTRO_CHANNEL }}
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
