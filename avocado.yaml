@@ -7,7 +7,7 @@ extensions:
     summary: Cockpit with web interface
     description: A web-based graphical interface for device configuration
     license: Apache-2.0
-    url: https://github.com/avocadolinux/avocado-os
+    url: https://github.com/avocado-linux/ext-cockpit
     vendor: Avocado Linux <info@avocadolinux.org>
 
     overlay: overlay
